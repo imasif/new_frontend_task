@@ -24,3 +24,7 @@ body {
   color: var(--foreground);
   font-family: Arial, Helvetica, sans-serif;
 }
+
+.topbar-bg {
+  background: linear-gradient(90deg,rgba(252, 0, 78, 1) 0%, rgba(16, 203, 224, 1) 100%);
+}
