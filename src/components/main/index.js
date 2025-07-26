@@ -1,7 +1,7 @@
 import Image from "next/image";
-import Footer from "./Footer";
+import Footer from "../Footer";
 
-export default function MainContent() {
+export default function Main() {
   return (
     <main className="flex flex-col w-full max-w-[1110px] md:px-2 lg:px-0">
       <div className="flex flex-col md:flex-row gap-8 relative">
