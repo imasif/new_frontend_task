@@ -3,7 +3,7 @@ import Footer from "./Footer";
 
 export default function MainContent() {
   return (
-    <main className="flex flex-col w-full max-w-[1110px]">
+    <main className="flex flex-col w-full max-w-[1110px] md:px-2 lg:px-0">
       <div className="flex flex-col md:flex-row gap-8 relative">
         {/* Left Column */}
         <div className="flex-1 relative z-10 md:pr-0 order-2 py-8 md:order-1">
