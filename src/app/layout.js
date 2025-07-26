@@ -1,5 +1,7 @@
 import { Geist, Geist_Mono, Figtree, Urbanist } from "next/font/google";
 import "./globals.css";
+import Topbar from "@/components/Topbar";
+import Navbar from "@/components/Navbar";
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
@@ -34,7 +36,13 @@ export default function RootLayout({ children }) {
       <body
         className={`${figtree.variable} ${urbanist.variable} ${geistSans.variable} ${geistMono.variable} font-figtree antialiased`}
       >
-        {children}
+        <div className="font-figtree items-center justify-items-center min-h-screen pb-20 gap-16">
+          <header className="flex flex-col w-full">
+            <Topbar />
+            <Navbar />
+          </header>
+            {children}
+        </div>
       </body>
     </html>
   );
