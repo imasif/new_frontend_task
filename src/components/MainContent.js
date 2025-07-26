@@ -32,7 +32,7 @@ export default function MainContent() {
           <div className="block md:hidden">
             <Footer/>
           </div>
-          <div className="flex flex-col w-full px-4 md:w-[313px] items-center md:items-start">
+          <div className="flex flex-col w-full md:w-[313px] items-center md:items-start">
             <button className="w-full max-w-[313px] md:w-[313px] bg-[#FC004E] text-white font-medium uppercase flex items-center justify-center get-started-button">
               <span>Get Started</span>
               <Image
