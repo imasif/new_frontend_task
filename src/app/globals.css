@@ -45,3 +45,24 @@ body {
 .urbanist-font {
   font-family: 'Urbanist', sans-serif;
 }
+
+.home-list {
+  list-style: none;
+  padding-left: 0;
+}
+
+.home-list li {
+  position: relative;
+  padding-left: 24px;
+}
+
+.home-list li::before {
+  content: '✨';
+  position: absolute;
+  left: 0;
+  top: 2px;
+  width: 16px;
+  height: 16px;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
