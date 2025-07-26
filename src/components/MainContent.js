@@ -14,21 +14,17 @@ export default function MainContent() {
             Discover your way to success <br /> with Fametonic:
           </h1>
           <div className="mb-6">
-            <ul className="text-white space-y-3 font-semibold px-4 md:px-0">
+            <ul className="text-white space-y-3 font-semibold px-4 md:px-0 home-list">
               <li className="flex items-start">
-                ✨{'  '}
                 Start growing your influence right away—no waiting required!
               </li>
               <li className="flex items-start">
-                ✨{'  '}
                 Create viral TikToks and Reels step by step with easy-to-follow lessons
               </li>
               <li className="flex items-start">
-                ✨{'  '}
                 Use a Personal AI Worker to boost your content
               </li>
               <li className="flex items-start">
-                ✨{' '}
                 Learn from expert-led courses designed for aspiring influencers
               </li>
             </ul>
@@ -37,7 +33,7 @@ export default function MainContent() {
             <Footer/>
           </div>
           <div className="flex flex-col w-full px-4 md:w-[313px] items-center md:items-start">
-            <button className="w-full md:w-[313px] bg-[#FC004E] text-white font-medium uppercase flex items-center justify-center get-started-button">
+            <button className="w-full max-w-[313px] md:w-[313px] bg-[#FC004E] text-white font-medium uppercase flex items-center justify-center get-started-button">
               <span>Get Started</span>
               <Image
                 src="/greater_icon.svg"
