@@ -7,7 +7,7 @@ export default function Navbar() {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
 
   return (
-    <nav className="flex flex-col items-center bg-[#010101] mt-4 md:mt-0">
+    <nav className="flex flex-col items-center bg-[#010101] mt-4">
       <div className="w-full mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex flex-col md:flex-row w-full justify-center">
           <div className="flex max-w-[1110px] justify-center md:justify-between w-full lg:mt-9">
