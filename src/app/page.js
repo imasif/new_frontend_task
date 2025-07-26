@@ -1,7 +1,7 @@
-import MainContent from "@/components/main";
+import Main from "@/components/main";
 
 export default function Home() {
   return (
-      <MainContent />
+      <Main />
   );
 }
